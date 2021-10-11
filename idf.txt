@@ -1,0 +1,779 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Build Order:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Ambari Main                                                        [pom]
+[[1;34mINFO[m] Apache Ambari Project POM                                          [pom]
+[[1;34mINFO[m] Ambari Web                                                         [pom]
+[[1;34mINFO[m] Ambari Views                                                       [jar]
+[[1;34mINFO[m] Ambari Admin View                                                  [jar]
+[[1;34mINFO[m] ambari-utility                                                     [jar]
+[[1;34mINFO[m] Ambari Server SPI                                                  [jar]
+[[1;34mINFO[m] Ambari Service Advisor                                             [jar]
+[[1;34mINFO[m] Ambari Server                                                      [jar]
+[[1;34mINFO[m] Ambari Functional Tests                                            [jar]
+[[1;34mINFO[m] Ambari Agent                                                       [jar]
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36morg.apache.ambari:ambari[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding Ambari Main 3.0.0.0-SNAPSHOT                             [1/11][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mambari[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:regex-property[m [1m(parse-package-version)[m @ [36mambari[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:regex-property[m [1m(parse-package-release)[m @ [36mambari[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mambari[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-versions)[m @ [36mambari[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mambari[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.0.1:flatten[m [1m(flatten)[m @ [36mambari[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project org.apache.ambari:ambari:pom:3.0.0.0-SNAPSHOT...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mambari[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[m @ [36mambari[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving org.apache.ambari:ambari:3.0.0.0-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+ERROR (WRITE_ERROR_STDOUT_STRING): org.apache.ambari:ambari:3.0.0.0-SNAPSHOT
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36morg.apache.ambari:ambari-project[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding Apache Ambari Project POM 3.0.0.0-SNAPSHOT               [2/11][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/plugins/maven-surefire-plugin/2.20/maven-surefire-plugin-2.20.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/plugins/maven-surefire-plugin/2.20/maven-surefire-plugin-2.20.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugins/maven-surefire-plugin/2.20/maven-surefire-plugin-2.20.pom
+Progress (1): 4.1/6.5 kBProgress (1): 6.5 kB                        Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugins/maven-surefire-plugin/2.20/maven-surefire-plugin-2.20.pom (6.5 kB at 20 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/surefire/surefire/2.20/surefire-2.20.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/surefire/surefire/2.20/surefire-2.20.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/surefire/surefire/2.20/surefire-2.20.pom
+Progress (1): 4.1/21 kBProgress (1): 6.9/21 kBProgress (1): 11/21 kB Progress (1): 15/21 kBProgress (1): 19/21 kBProgress (1): 21 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/surefire/surefire/2.20/surefire-2.20.pom (21 kB at 172 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/plugins/maven-surefire-plugin/2.20/maven-surefire-plugin-2.20.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/plugins/maven-surefire-plugin/2.20/maven-surefire-plugin-2.20.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugins/maven-surefire-plugin/2.20/maven-surefire-plugin-2.20.jar
+Progress (1): 4.1/53 kBProgress (1): 6.9/53 kBProgress (1): 11/53 kB Progress (1): 15/53 kBProgress (1): 19/53 kBProgress (1): 23/53 kBProgress (1): 27/53 kBProgress (1): 31/53 kBProgress (1): 36/53 kBProgress (1): 40/53 kBProgress (1): 44/53 kBProgress (1): 48/53 kBProgress (1): 52/53 kBProgress (1): 53 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugins/maven-surefire-plugin/2.20/maven-surefire-plugin-2.20.jar (53 kB at 388 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/com/github/kongchen/swagger-maven-plugin/3.1.5/swagger-maven-plugin-3.1.5.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/com/github/kongchen/swagger-maven-plugin/3.1.5/swagger-maven-plugin-3.1.5.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/kongchen/swagger-maven-plugin/3.1.5/swagger-maven-plugin-3.1.5.pom
+Progress (1): 4.1/11 kBProgress (1): 6.9/11 kBProgress (1): 11/11 kB Progress (1): 11 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/kongchen/swagger-maven-plugin/3.1.5/swagger-maven-plugin-3.1.5.pom (11 kB at 65 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/com/github/kongchen/swagger-maven-plugin/3.1.5/swagger-maven-plugin-3.1.5.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/com/github/kongchen/swagger-maven-plugin/3.1.5/swagger-maven-plugin-3.1.5.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/kongchen/swagger-maven-plugin/3.1.5/swagger-maven-plugin-3.1.5.jar
+Progress (1): 4.1/94 kBProgress (1): 6.9/94 kBProgress (1): 11/94 kB Progress (1): 15/94 kBProgress (1): 19/94 kBProgress (1): 23/94 kBProgress (1): 27/94 kBProgress (1): 31/94 kBProgress (1): 32/94 kBProgress (1): 36/94 kBProgress (1): 39/94 kBProgress (1): 43/94 kBProgress (1): 47/94 kBProgress (1): 52/94 kBProgress (1): 56/94 kBProgress (1): 60/94 kBProgress (1): 64/94 kBProgress (1): 65/94 kBProgress (1): 69/94 kBProgress (1): 73/94 kBProgress (1): 77/94 kBProgress (1): 81/94 kBProgress (1): 85/94 kBProgress (1): 89/94 kBProgress (1): 93/94 kBProgress (1): 94 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/kongchen/swagger-maven-plugin/3.1.5/swagger-maven-plugin-3.1.5.jar (94 kB at 527 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/codehaus/mojo/properties-maven-plugin/1.0.0/properties-maven-plugin-1.0.0.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/codehaus/mojo/properties-maven-plugin/1.0.0/properties-maven-plugin-1.0.0.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/mojo/properties-maven-plugin/1.0.0/properties-maven-plugin-1.0.0.pom
+Progress (1): 4.1/5.0 kBProgress (1): 5.0 kB                        Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/mojo/properties-maven-plugin/1.0.0/properties-maven-plugin-1.0.0.pom (5.0 kB at 43 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/codehaus/mojo/mojo-parent/38/mojo-parent-38.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/codehaus/mojo/mojo-parent/38/mojo-parent-38.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/mojo/mojo-parent/38/mojo-parent-38.pom
+Progress (1): 4.1/33 kBProgress (1): 6.9/33 kBProgress (1): 11/33 kB Progress (1): 15/33 kBProgress (1): 19/33 kBProgress (1): 23/33 kBProgress (1): 27/33 kBProgress (1): 31/33 kBProgress (1): 33 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/mojo/mojo-parent/38/mojo-parent-38.pom (33 kB at 288 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/codehaus/mojo/properties-maven-plugin/1.0.0/properties-maven-plugin-1.0.0.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/codehaus/mojo/properties-maven-plugin/1.0.0/properties-maven-plugin-1.0.0.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/mojo/properties-maven-plugin/1.0.0/properties-maven-plugin-1.0.0.jar
+Progress (1): 4.1/30 kBProgress (1): 6.8/30 kBProgress (1): 11/30 kB Progress (1): 15/30 kBProgress (1): 19/30 kBProgress (1): 23/30 kBProgress (1): 27/30 kBProgress (1): 30 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/mojo/properties-maven-plugin/1.0.0/properties-maven-plugin-1.0.0.jar (30 kB at 225 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/codehaus/mojo/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/codehaus/mojo/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/mojo/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.pom
+Progress (1): 4.1/7.7 kBProgress (1): 6.9/7.7 kBProgress (1): 7.7 kB                        Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/mojo/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.pom (7.7 kB at 54 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/codehaus/mojo/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/codehaus/mojo/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/mojo/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.jar
+Progress (1): 4.1/38 kBProgress (1): 6.9/38 kBProgress (1): 11/38 kB Progress (1): 15/38 kBProgress (1): 19/38 kBProgress (1): 23/38 kBProgress (1): 27/38 kBProgress (1): 31/38 kBProgress (1): 36/38 kBProgress (1): 38 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/mojo/exec-maven-plugin/1.2.1/exec-maven-plugin-1.2.1.jar (38 kB at 280 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/plugins/maven-failsafe-plugin/2.20/maven-failsafe-plugin-2.20.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/plugins/maven-failsafe-plugin/2.20/maven-failsafe-plugin-2.20.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugins/maven-failsafe-plugin/2.20/maven-failsafe-plugin-2.20.pom
+Progress (1): 4.1/11 kBProgress (1): 6.9/11 kBProgress (1): 11 kB                       Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugins/maven-failsafe-plugin/2.20/maven-failsafe-plugin-2.20.pom (11 kB at 64 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/plugins/maven-failsafe-plugin/2.20/maven-failsafe-plugin-2.20.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/plugins/maven-failsafe-plugin/2.20/maven-failsafe-plugin-2.20.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugins/maven-failsafe-plugin/2.20/maven-failsafe-plugin-2.20.jar
+Progress (1): 4.1/94 kBProgress (1): 6.9/94 kBProgress (1): 11/94 kB Progress (1): 15/94 kBProgress (1): 19/94 kBProgress (1): 23/94 kBProgress (1): 27/94 kBProgress (1): 31/94 kBProgress (1): 32/94 kBProgress (1): 33/94 kBProgress (1): 38/94 kBProgress (1): 42/94 kBProgress (1): 46/94 kBProgress (1): 50/94 kBProgress (1): 54/94 kBProgress (1): 58/94 kBProgress (1): 62/94 kBProgress (1): 65/94 kBProgress (1): 69/94 kBProgress (1): 73/94 kBProgress (1): 77/94 kBProgress (1): 81/94 kBProgress (1): 85/94 kBProgress (1): 89/94 kBProgress (1): 93/94 kBProgress (1): 94 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugins/maven-failsafe-plugin/2.20/maven-failsafe-plugin-2.20.jar (94 kB at 324 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mambari-project[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:regex-property[m [1m(parse-package-version)[m @ [36mambari-project[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:regex-property[m [1m(parse-package-release)[m @ [36mambari-project[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mambari-project[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-versions)[m @ [36mambari-project[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mambari-project[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.0.1:flatten[m [1m(flatten)[m @ [36mambari-project[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project org.apache.ambari:ambari-project:pom:3.0.0.0-SNAPSHOT...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mambari-project[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[m @ [36mambari-project[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving org.apache.ambari:ambari-project:3.0.0.0-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+ERROR (WRITE_ERROR_STDOUT_STRING): org.apache.ambari:ambari-project:3.0.0.0-SNAPSHOT
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------< [0;36morg.apache.ambari:ambari-web[0;1m >--------------------[m
+[[1;34mINFO[m] [1mBuilding Ambari Web 3.0.0.0-SNAPSHOT                              [3/11][m
+[[1;34mINFO[m] [1m--------------------------------[ pom ]---------------------------------[m
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/plugins/maven-compiler-plugin/3.0/maven-compiler-plugin-3.0.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/plugins/maven-compiler-plugin/3.0/maven-compiler-plugin-3.0.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugins/maven-compiler-plugin/3.0/maven-compiler-plugin-3.0.pom
+Progress (1): 4.1/9.9 kBProgress (1): 6.9/9.9 kBProgress (1): 9.9 kB                        Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugins/maven-compiler-plugin/3.0/maven-compiler-plugin-3.0.pom (9.9 kB at 56 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/plugins/maven-compiler-plugin/3.0/maven-compiler-plugin-3.0.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/plugins/maven-compiler-plugin/3.0/maven-compiler-plugin-3.0.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugins/maven-compiler-plugin/3.0/maven-compiler-plugin-3.0.jar
+Progress (1): 4.1/41 kBProgress (1): 6.9/41 kBProgress (1): 11/41 kB Progress (1): 15/41 kBProgress (1): 19/41 kBProgress (1): 23/41 kBProgress (1): 27/41 kBProgress (1): 31/41 kBProgress (1): 36/41 kBProgress (1): 40/41 kBProgress (1): 41 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugins/maven-compiler-plugin/3.0/maven-compiler-plugin-3.0.jar (41 kB at 262 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/com/github/eirslett/frontend-maven-plugin/1.4/frontend-maven-plugin-1.4.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/com/github/eirslett/frontend-maven-plugin/1.4/frontend-maven-plugin-1.4.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-maven-plugin/1.4/frontend-maven-plugin-1.4.pom
+Progress (1): 4.1/4.5 kBProgress (1): 4.5 kB                        Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-maven-plugin/1.4/frontend-maven-plugin-1.4.pom (4.5 kB at 27 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/com/github/eirslett/frontend-plugins/1.4/frontend-plugins-1.4.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/com/github/eirslett/frontend-plugins/1.4/frontend-plugins-1.4.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-plugins/1.4/frontend-plugins-1.4.pom
+Progress (1): 2.3 kB                    Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-plugins/1.4/frontend-plugins-1.4.pom (2.3 kB at 14 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/com/github/eirslett/frontend-maven-plugin/1.4/frontend-maven-plugin-1.4.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/com/github/eirslett/frontend-maven-plugin/1.4/frontend-maven-plugin-1.4.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-maven-plugin/1.4/frontend-maven-plugin-1.4.jar
+Progress (1): 4.1/36 kBProgress (1): 6.9/36 kBProgress (1): 11/36 kB Progress (1): 15/36 kBProgress (1): 19/36 kBProgress (1): 23/36 kBProgress (1): 27/36 kBProgress (1): 31/36 kBProgress (1): 36/36 kBProgress (1): 36 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-maven-plugin/1.4/frontend-maven-plugin-1.4.jar (36 kB at 217 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mambari-web[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:regex-property[m [1m(parse-package-version)[m @ [36mambari-web[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:regex-property[m [1m(parse-package-release)[m @ [36mambari-web[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:parse-version[m [1m(parse-version)[m @ [36mambari-web[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:regex-property[m [1m(regex-property)[m @ [36mambari-web[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mambari-web[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-versions)[m @ [36mambari-web[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mfrontend-maven-plugin:1.4:install-node-and-yarn[m [1m(install node and yarn)[m @ [36mambari-web[0;1m ---[m
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/com/github/eirslett/frontend-plugin-core/1.4/frontend-plugin-core-1.4.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/com/github/eirslett/frontend-plugin-core/1.4/frontend-plugin-core-1.4.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-plugin-core/1.4/frontend-plugin-core-1.4.pom
+Progress (1): 2.0 kB                    Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-plugin-core/1.4/frontend-plugin-core-1.4.pom (2.0 kB at 12 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom
+Progress (1): 4.1/9.7 kBProgress (1): 6.9/9.7 kBProgress (1): 9.7 kB                        Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom (9.7 kB at 77 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/commons/commons-parent/3/commons-parent-3.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/commons/commons-parent/3/commons-parent-3.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/commons/commons-parent/3/commons-parent-3.pom
+Progress (1): 4.1/12 kBProgress (1): 6.9/12 kBProgress (1): 11/12 kB Progress (1): 12 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/commons/commons-parent/3/commons-parent-3.pom (12 kB at 97 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom
+Progress (1): 4.1/11 kBProgress (1): 6.9/11 kBProgress (1): 11/11 kB Progress (1): 11 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/commons/commons-exec/1.3/commons-exec-1.3.pom (11 kB at 85 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/commons/commons-parent/35/commons-parent-35.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/commons/commons-parent/35/commons-parent-35.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/commons/commons-parent/35/commons-parent-35.pom
+Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/commons/commons-parent/35/commons-parent-35.pom (0 B at 0 B/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.pom
+Progress (1): 3.0 kB                    Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.pom (3.0 kB at 28 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/maven/3.1.0/maven-3.1.0.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/maven/3.1.0/maven-3.1.0.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven/3.1.0/maven-3.1.0.pom
+Progress (1): 4.1/22 kBProgress (1): 6.9/22 kBProgress (1): 11/22 kB Progress (1): 15/22 kBProgress (1): 19/22 kBProgress (1): 22 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven/3.1.0/maven-3.1.0.pom (22 kB at 190 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.pom
+Progress (1): 3.8 kB                    Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.pom (3.8 kB at 36 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom
+Progress (1): 1.6 kB                    Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.pom (1.6 kB at 15 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.pom
+Progress (1): 4.1/5.9 kBProgress (1): 5.9 kB                        Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.pom (5.9 kB at 50 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/sisu-plexus-0.0.0.M2a.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/sisu-plexus-0.0.0.M2a.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/sisu-plexus-0.0.0.M2a.pom
+Progress (1): 4.1/7.9 kBProgress (1): 6.9/7.9 kBProgress (1): 7.9 kB                        Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/eclipse/sisu/sisu-plexus/0.0.0.M2a/sisu-plexus-0.0.0.M2a.pom (7.9 kB at 64 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.pom
+Progress (1): 4.1/5.0 kBProgress (1): 5.0 kB                        Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.pom (5.0 kB at 43 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/eclipse/sisu/sisu-inject/0.0.0.M2a/sisu-inject-0.0.0.M2a.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/eclipse/sisu/sisu-inject/0.0.0.M2a/sisu-inject-0.0.0.M2a.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/eclipse/sisu/sisu-inject/0.0.0.M2a/sisu-inject-0.0.0.M2a.pom
+Progress (1): 4.1/7.8 kBProgress (1): 6.9/7.8 kBProgress (1): 7.8 kB                        Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/eclipse/sisu/sisu-inject/0.0.0.M2a/sisu-inject-0.0.0.M2a.pom (7.8 kB at 65 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/asm/asm/3.3.1/asm-3.3.1.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/asm/asm/3.3.1/asm-3.3.1.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/asm/asm/3.3.1/asm-3.3.1.pom
+Progress (1): 266 B                   Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/asm/asm/3.3.1/asm-3.3.1.pom (266 B at 2.3 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom
+Progress (1): 4.1/4.3 kBProgress (1): 4.3 kB                        Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/asm/asm-parent/3.3.1/asm-parent-3.3.1.pom (4.3 kB at 41 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.pom
+Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.pom (0 B at 0 B/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/plugin-tools/maven-plugin-tools/3.2/maven-plugin-tools-3.2.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/plugin-tools/maven-plugin-tools/3.2/maven-plugin-tools-3.2.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugin-tools/maven-plugin-tools/3.2/maven-plugin-tools-3.2.pom
+Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugin-tools/maven-plugin-tools/3.2/maven-plugin-tools-3.2.pom (0 B at 0 B/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/com/github/eirslett/frontend-plugin-core/1.4/frontend-plugin-core-1.4.jar
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/asm/asm/3.3.1/asm-3.3.1.jar
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/com/github/eirslett/frontend-plugin-core/1.4/frontend-plugin-core-1.4.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/asm/asm/3.3.1/asm-3.3.1.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-plugin-core/1.4/frontend-plugin-core-1.4.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar
+Progress (1): 4.1/68 kBProgress (1): 6.9/68 kBProgress (1): 11/68 kB Progress (1): 15/68 kBProgress (1): 19/68 kBProgress (1): 23/68 kBProgress (1): 27/68 kBProgress (1): 31/68 kBProgress (1): 32/68 kBProgress (1): 36/68 kBProgress (1): 40/68 kBProgress (1): 44/68 kBProgress (1): 45/68 kBProgress (1): 49/68 kBProgress (1): 53/68 kBProgress (1): 57/68 kBProgress (1): 61/68 kBProgress (1): 66/68 kBProgress (1): 68 kB   Progress (2): 68 kB | 4.1/88 kBProgress (2): 68 kB | 6.9/88 kBProgress (2): 68 kB | 11/88 kB Progress (2): 68 kB | 15/88 kBProgress (3): 68 kB | 15/88 kB | 4.1/164 kBProgress (3): 68 kB | 15/88 kB | 7.5/164 kBProgress (3): 68 kB | 15/88 kB | 12/164 kB Progress (3): 68 kB | 15/88 kB | 16/164 kBProgress (3): 68 kB | 19/88 kB | 16/164 kBProgress (3): 68 kB | 23/88 kB | 16/164 kBProgress (3): 68 kB | 27/88 kB | 16/164 kBProgress (3): 68 kB | 31/88 kB | 16/164 kBProgress (3): 68 kB | 31/88 kB | 20/164 kBProgress (3): 68 kB | 31/88 kB | 24/164 kBProgress (3): 68 kB | 31/88 kB | 28/164 kBProgress (3): 68 kB | 31/88 kB | 32/164 kB                                          Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-plugin-core/1.4/frontend-plugin-core-1.4.jar (68 kB at 260 kB/s)
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar
+Progress (2): 36/88 kB | 32/164 kBProgress (2): 40/88 kB | 32/164 kBProgress (2): 44/88 kB | 32/164 kBProgress (2): 48/88 kB | 32/164 kBProgress (2): 48/88 kB | 36/164 kBProgress (2): 48/88 kB | 40/164 kBProgress (2): 48/88 kB | 44/164 kBProgress (2): 48/88 kB | 48/164 kBProgress (2): 48/88 kB | 53/164 kBProgress (2): 48/88 kB | 57/164 kBProgress (2): 48/88 kB | 61/164 kBProgress (2): 48/88 kB | 64/164 kBProgress (2): 48/88 kB | 68/164 kBProgress (2): 48/88 kB | 72/164 kBProgress (2): 48/88 kB | 76/164 kBProgress (2): 48/88 kB | 80/164 kBProgress (2): 48/88 kB | 84/164 kBProgress (2): 52/88 kB | 84/164 kBProgress (2): 52/88 kB | 88/164 kBProgress (2): 52/88 kB | 92/164 kBProgress (2): 56/88 kB | 92/164 kBProgress (2): 56/88 kB | 96/164 kBProgress (2): 60/88 kB | 96/164 kBProgress (2): 64/88 kB | 96/164 kBProgress (2): 64/88 kB | 100/164 kBProgress (2): 64/88 kB | 105/164 kBProgress (2): 64/88 kB | 109/164 kBProgress (2): 64/88 kB | 113/164 kBProgress (2): 64/88 kB | 117/164 kBProgress (2): 64/88 kB | 121/164 kBProgress (2): 64/88 kB | 125/164 kBProgress (2): 64/88 kB | 129/164 kBProgress (2): 64/88 kB | 131/164 kBProgress (2): 68/88 kB | 131/164 kBProgress (2): 72/88 kB | 131/164 kBProgress (2): 77/88 kB | 131/164 kBProgress (2): 81/88 kB | 131/164 kBProgress (2): 81/88 kB | 135/164 kBProgress (2): 85/88 kB | 135/164 kBProgress (2): 88 kB | 135/164 kB   Progress (2): 88 kB | 139/164 kBProgress (2): 88 kB | 144/164 kBProgress (2): 88 kB | 148/164 kBProgress (2): 88 kB | 152/164 kBProgress (2): 88 kB | 156/164 kBProgress (2): 88 kB | 160/164 kBProgress (2): 88 kB | 164 kB    Progress (3): 88 kB | 164 kB | 4.1/52 kBProgress (3): 88 kB | 164 kB | 6.9/52 kBProgress (3): 88 kB | 164 kB | 11/52 kB Progress (3): 88 kB | 164 kB | 15/52 kBProgress (3): 88 kB | 164 kB | 19/52 kBProgress (3): 88 kB | 164 kB | 23/52 kBProgress (3): 88 kB | 164 kB | 27/52 kBProgress (3): 88 kB | 164 kB | 31/52 kBProgress (3): 88 kB | 164 kB | 36/52 kBProgress (3): 88 kB | 164 kB | 40/52 kBProgress (3): 88 kB | 164 kB | 44/52 kBProgress (3): 88 kB | 164 kB | 48/52 kBProgress (3): 88 kB | 164 kB | 52/52 kBProgress (3): 88 kB | 164 kB | 52 kB                                       Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/commons-io/commons-io/1.3.2/commons-io-1.3.2.jar (88 kB at 259 kB/s)
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar
+Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven-model/3.1.0/maven-model-3.1.0.jar (164 kB at 484 kB/s)
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar
+Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven-artifact/3.1.0/maven-artifact-3.1.0.jar (52 kB at 139 kB/s)
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/asm/asm/3.3.1/asm-3.3.1.jar
+Progress (1): 4.1/202 kBProgress (1): 7.4/202 kBProgress (1): 12/202 kB Progress (1): 16/202 kBProgress (1): 17/202 kBProgress (1): 21/202 kBProgress (1): 25/202 kBProgress (1): 29/202 kBProgress (1): 33/202 kBProgress (1): 37/202 kBProgress (1): 41/202 kBProgress (1): 45/202 kBProgress (1): 50/202 kBProgress (1): 54/202 kBProgress (1): 58/202 kBProgress (1): 62/202 kBProgress (1): 66/202 kBProgress (1): 70/202 kBProgress (1): 74/202 kBProgress (1): 78/202 kBProgress (1): 82/202 kBProgress (1): 86/202 kBProgress (1): 91/202 kBProgress (1): 95/202 kBProgress (1): 99/202 kBProgress (1): 103/202 kBProgress (1): 107/202 kBProgress (1): 111/202 kBProgress (1): 115/202 kBProgress (1): 119/202 kBProgress (1): 123/202 kBProgress (1): 127/202 kBProgress (1): 131/202 kBProgress (1): 136/202 kBProgress (1): 140/202 kBProgress (1): 144/202 kBProgress (1): 148/202 kBProgress (1): 152/202 kBProgress (1): 156/202 kBProgress (1): 160/202 kBProgress (1): 164/202 kBProgress (1): 168/202 kBProgress (1): 172/202 kBProgress (1): 177/202 kBProgress (1): 181/202 kBProgress (1): 185/202 kBProgress (1): 189/202 kBProgress (1): 193/202 kBProgress (1): 197/202 kBProgress (1): 201/202 kBProgress (1): 202 kB    Progress (2): 202 kB | 4.1/44 kBProgress (2): 202 kB | 6.9/44 kBProgress (2): 202 kB | 11/44 kB Progress (2): 202 kB | 15/44 kBProgress (2): 202 kB | 19/44 kBProgress (2): 202 kB | 23/44 kBProgress (2): 202 kB | 27/44 kBProgress (2): 202 kB | 31/44 kBProgress (2): 202 kB | 36/44 kBProgress (2): 202 kB | 40/44 kBProgress (2): 202 kB | 44 kB   Progress (3): 202 kB | 44 kB | 4.1/202 kBProgress (3): 202 kB | 44 kB | 8.2/202 kBProgress (3): 202 kB | 44 kB | 12/202 kB Progress (3): 202 kB | 44 kB | 16/202 kBProgress (3): 202 kB | 44 kB | 20/202 kBProgress (3): 202 kB | 44 kB | 25/202 kBProgress (3): 202 kB | 44 kB | 29/202 kBProgress (3): 202 kB | 44 kB | 33/202 kBProgress (3): 202 kB | 44 kB | 37/202 kBProgress (3): 202 kB | 44 kB | 41/202 kBProgress (3): 202 kB | 44 kB | 45/202 kBProgress (3): 202 kB | 44 kB | 49/202 kBProgress (3): 202 kB | 44 kB | 53/202 kBProgress (3): 202 kB | 44 kB | 57/202 kBProgress (3): 202 kB | 44 kB | 61/202 kBProgress (3): 202 kB | 44 kB | 64/202 kBProgress (3): 202 kB | 44 kB | 68/202 kBProgress (3): 202 kB | 44 kB | 72/202 kBProgress (3): 202 kB | 44 kB | 73/202 kBProgress (3): 202 kB | 44 kB | 77/202 kBProgress (3): 202 kB | 44 kB | 81/202 kBProgress (3): 202 kB | 44 kB | 85/202 kBProgress (3): 202 kB | 44 kB | 90/202 kBProgress (3): 202 kB | 44 kB | 94/202 kBProgress (3): 202 kB | 44 kB | 98/202 kBProgress (3): 202 kB | 44 kB | 102/202 kBProgress (3): 202 kB | 44 kB | 106/202 kBProgress (3): 202 kB | 44 kB | 110/202 kBProgress (3): 202 kB | 44 kB | 114/202 kBProgress (3): 202 kB | 44 kB | 118/202 kBProgress (3): 202 kB | 44 kB | 122/202 kBProgress (3): 202 kB | 44 kB | 126/202 kBProgress (3): 202 kB | 44 kB | 131/202 kBProgress (3): 202 kB | 44 kB | 135/202 kBProgress (3): 202 kB | 44 kB | 139/202 kBProgress (3): 202 kB | 44 kB | 143/202 kBProgress (3): 202 kB | 44 kB | 147/202 kBProgress (3): 202 kB | 44 kB | 151/202 kBProgress (3): 202 kB | 44 kB | 155/202 kBProgress (3): 202 kB | 44 kB | 159/202 kBProgress (3): 202 kB | 44 kB | 163/202 kBProgress (3): 202 kB | 44 kB | 167/202 kBProgress (3): 202 kB | 44 kB | 170/202 kBProgress (3): 202 kB | 44 kB | 174/202 kBProgress (3): 202 kB | 44 kB | 178/202 kBProgress (3): 202 kB | 44 kB | 182/202 kBProgress (3): 202 kB | 44 kB | 187/202 kBProgress (3): 202 kB | 44 kB | 191/202 kBProgress (3): 202 kB | 44 kB | 195/202 kBProgress (3): 202 kB | 44 kB | 199/202 kBProgress (3): 202 kB | 44 kB | 202 kB                                         Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/eclipse/sisu/org.eclipse.sisu.plexus/0.0.0.M2a/org.eclipse.sisu.plexus-0.0.0.M2a.jar (202 kB at 415 kB/s)
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar
+Progress (3): 44 kB | 202 kB | 4.1/54 kBProgress (3): 44 kB | 202 kB | 6.9/54 kBProgress (3): 44 kB | 202 kB | 11/54 kB Progress (3): 44 kB | 202 kB | 15/54 kB                                       Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/asm/asm/3.3.1/asm-3.3.1.jar (44 kB at 88 kB/s)
+Progress (2): 202 kB | 19/54 kBProgress (2): 202 kB | 23/54 kBProgress (2): 202 kB | 27/54 kBProgress (2): 202 kB | 31/54 kBProgress (2): 202 kB | 36/54 kBProgress (2): 202 kB | 40/54 kBProgress (2): 202 kB | 44/54 kBProgress (2): 202 kB | 48/54 kBProgress (3): 202 kB | 48/54 kB | 4.1/50 kBProgress (3): 202 kB | 48/54 kB | 6.9/50 kBProgress (3): 202 kB | 48/54 kB | 11/50 kB Progress (3): 202 kB | 48/54 kB | 15/50 kBProgress (3): 202 kB | 48/54 kB | 19/50 kBProgress (3): 202 kB | 48/54 kB | 23/50 kBProgress (3): 202 kB | 48/54 kB | 27/50 kBProgress (3): 202 kB | 48/54 kB | 31/50 kBProgress (3): 202 kB | 48/54 kB | 36/50 kBProgress (3): 202 kB | 48/54 kB | 40/50 kBProgress (3): 202 kB | 48/54 kB | 44/50 kBProgress (3): 202 kB | 48/54 kB | 48/50 kBProgress (3): 202 kB | 48/54 kB | 50 kB   Progress (3): 202 kB | 52/54 kB | 50 kBProgress (3): 202 kB | 54 kB | 50 kB                                       Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/eclipse/sisu/org.eclipse.sisu.inject/0.0.0.M2a/org.eclipse.sisu.inject-0.0.0.M2a.jar (202 kB at 390 kB/s)
+Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/plugin-tools/maven-plugin-annotations/3.2/maven-plugin-annotations-3.2.jar (0 B at 0 B/s)
+Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/maven-plugin-api/3.1.0/maven-plugin-api-3.1.0.jar (50 kB at 88 kB/s)
+Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar (54 kB at 95 kB/s)
+[[1;34mINFO[m] Installing node version v4.5.0
+[[1;34mINFO[m] Downloading https://nodejs.org/dist/v4.5.0/node-v4.5.0-linux-x64.tar.gz to /home/ch61/.m2/repository/com/github/eirslett/node/4.5.0/node-4.5.0-linux-x64.tar.gz
+[[1;34mINFO[m] No proxies configured
+[[1;34mINFO[m] No proxy was configured, downloading directly
+[[1;34mINFO[m] Unpacking /home/ch61/.m2/repository/com/github/eirslett/node/4.5.0/node-4.5.0-linux-x64.tar.gz into /home/ch61/ambari/ambari-web/node/tmp
+[[1;34mINFO[m] Copying node binary from /home/ch61/ambari/ambari-web/node/tmp/node-v4.5.0-linux-x64/bin/node to /home/ch61/ambari/ambari-web/node/node
+[[1;34mINFO[m] Installed node locally.
+[[1;34mINFO[m] Installing Yarn version v0.23.2
+[[1;34mINFO[m] Downloading https://github.com/yarnpkg/yarn/releases/download/v0.23.2/yarn-v0.23.2.tar.gz to /home/ch61/.m2/repository/com/github/eirslett/yarn/0.23.2/yarn-0.23.2./yarn-v0.23.2.tar.gz
+[[1;34mINFO[m] No proxies configured
+[[1;34mINFO[m] No proxy was configured, downloading directly
+[[1;34mINFO[m] Unpacking /home/ch61/.m2/repository/com/github/eirslett/yarn/0.23.2/yarn-0.23.2./yarn-v0.23.2.tar.gz into /home/ch61/ambari/ambari-web/node/yarn
+[[1;34mINFO[m] Installed Yarn locally.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mfrontend-maven-plugin:1.4:yarn[m [1m(yarn install)[m @ [36mambari-web[0;1m ---[m
+[[1;34mINFO[m] Running 'yarn install --ignore-engines --pure-lockfile' in /home/ch61/ambari/ambari-web
+[[1;34mINFO[m] yarn install v0.23.2
+[[1;31mERROR[m] warning Ambari@2.4.0: No license field
+[[1;34mINFO[m] [1/4] Resolving packages...
+[[1;34mINFO[m] [2/4] Fetching packages...
+[[1;31mERROR[m] warning fsevents@0.3.8: The platform "linux" is incompatible with this module.
+[[1;34mINFO[m] info "fsevents@0.3.8" is an optional dependency and failed compatibility check. Excluding it from installation.
+[[1;31mERROR[m] warning fsevents@1.1.1: The platform "linux" is incompatible with this module.
+[[1;34mINFO[m] info "fsevents@1.1.1" is an optional dependency and failed compatibility check. Excluding it from installation.
+[[1;34mINFO[m] [3/4] Linking dependencies...
+[[1;34mINFO[m] [4/4] Building fresh packages...
+[[1;34mINFO[m] Done in 18.54s.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mambari-web[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.2.1:exec[m [1m(Brunch build)[m @ [36mambari-web[0;1m ---[m
+10 Oct 19:10:21 - [32minfo[0m: compiled 1466 files into 5 files, copied 324 in 27573ms
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.0.1:flatten[m [1m(flatten)[m @ [36mambari-web[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project org.apache.ambari:ambari-web:pom:3.0.0.0-SNAPSHOT...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.2.1:exec[m [1m(set-ambari-version)[m @ [36mambari-web[0;1m ---[m
+Setting Ambari version to 3.0.0.0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.2.1:exec[m [1m(set-default-stack-version)[m @ [36mambari-web[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mexec-maven-plugin:1.2.1:exec[m [1m(toggle-experimental)[m @ [36mambari-web[0;1m ---[m
+/home/ch61/ambari/ambari-web/toggle-experimental.sh: 21: [: ${enableExperimental}: unexpected operator
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mambari-web[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[m @ [36mambari-web[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving org.apache.ambari:ambari-web:3.0.0.0-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Module is not using a supported test framework (probably not JUnit), or there is no test.
+---------------------------------------------------
+ERROR (WRITE_ERROR_STDOUT_STRING): org.apache.ambari:ambari-web:3.0.0.0-SNAPSHOT
+Message was:
+Module is not using a supported test framework (probably not JUnit), or there is no test.
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.apache.ambari:ambari-views[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Ambari Views 3.0.0.0-SNAPSHOT                            [4/11][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mambari-views[0;1m >>>[m
+Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/staging/org/easymock/easymock/3.1/easymock-3.1.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/easymock/easymock/3.1/easymock-3.1.pom
+Downloading from ASF Staging: https://repository.apache.org/content/groups/staging/org/easymock/easymock/3.1/easymock-3.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/easymock/easymock/3.1/easymock-3.1.pom
+Progress (1): 1.4/5.3 kBProgress (1): 2.7/5.3 kBProgress (1): 4.1/5.3 kBProgress (1): 5.3 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/easymock/easymock/3.1/easymock-3.1.pom (5.3 kB at 124 kB/s)
+Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/staging/org/easymock/easymock-parent/3.1/easymock-parent-3.1.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/easymock/easymock-parent/3.1/easymock-parent-3.1.pom
+Downloading from ASF Staging: https://repository.apache.org/content/groups/staging/org/easymock/easymock-parent/3.1/easymock-parent-3.1.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/easymock/easymock-parent/3.1/easymock-parent-3.1.pom
+Progress (1): 1.4/13 kBProgress (1): 2.7/13 kBProgress (1): 4.1/13 kBProgress (1): 5.5/13 kBProgress (1): 6.9/13 kBProgress (1): 8.2/13 kBProgress (1): 9.6/13 kBProgress (1): 11/13 kB Progress (1): 12/13 kBProgress (1): 13 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/easymock/easymock-parent/3.1/easymock-parent-3.1.pom (13 kB at 138 kB/s)
+Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/staging/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.pom
+Downloading from ASF Staging: https://repository.apache.org/content/groups/staging/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.pom
+Progress (1): 1.2 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.pom (1.2 kB at 37 kB/s)
+Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/staging/org/objenesis/objenesis/1.2/objenesis-1.2.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/objenesis/objenesis/1.2/objenesis-1.2.pom
+Downloading from ASF Staging: https://repository.apache.org/content/groups/staging/org/objenesis/objenesis/1.2/objenesis-1.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.pom
+Progress (1): 1.4/3.0 kBProgress (1): 2.7/3.0 kBProgress (1): 3.0 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.pom (3.0 kB at 201 kB/s)
+Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/staging/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom
+Downloading from ASF Staging: https://repository.apache.org/content/groups/staging/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom
+Progress (1): 1.4/10 kBProgress (1): 2.7/10 kBProgress (1): 4.1/10 kBProgress (1): 5.5/10 kBProgress (1): 6.9/10 kBProgress (1): 8.2/10 kBProgress (1): 9.6/10 kBProgress (1): 10 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis-parent/1.2/objenesis-parent-1.2.pom (10 kB at 863 kB/s)
+Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/staging/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.pom
+Downloading from ASF Staging: https://repository.apache.org/content/groups/staging/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.pom
+Progress (1): 1.4/10 kBProgress (1): 2.7/10 kBProgress (1): 4.1/10 kBProgress (1): 5.5/10 kBProgress (1): 6.9/10 kBProgress (1): 8.2/10 kBProgress (1): 9.6/10 kBProgress (1): 10 kB                       Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.pom (10 kB at 63 kB/s)
+Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/staging/com/sun/jersey/jersey-project/1.8/jersey-project-1.8.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/com/sun/jersey/jersey-project/1.8/jersey-project-1.8.pom
+Downloading from ASF Staging: https://repository.apache.org/content/groups/staging/com/sun/jersey/jersey-project/1.8/jersey-project-1.8.pom
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-project/1.8/jersey-project-1.8.pom
+Progress (1): 1.4/17 kBProgress (1): 2.7/17 kBProgress (1): 4.1/17 kBProgress (1): 5.5/17 kBProgress (1): 6.9/17 kBProgress (1): 8.2/17 kBProgress (1): 9.6/17 kBProgress (1): 11/17 kB Progress (1): 12/17 kBProgress (1): 14/17 kBProgress (1): 15/17 kBProgress (1): 16/17 kBProgress (1): 17 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-project/1.8/jersey-project-1.8.pom (17 kB at 1.1 MB/s)
+Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/staging/commons-codec/commons-codec/1.8/commons-codec-1.8.pom
+Downloading from spring-milestones: https://repo.spring.io/milestone/commons-codec/commons-codec/1.8/commons-codec-1.8.pom
+Downloading from ASF Staging: https://repository.apache.org/content/groups/staging/commons-codec/commons-codec/1.8/commons-codec-1.8.pom
+Progress (1): 4.1/11 kBProgress (1): 7.7/11 kBProgress (1): 8.2/11 kBProgress (1): 11 kB                       Downloaded from ASF Staging: https://repository.apache.org/content/groups/staging/commons-codec/commons-codec/1.8/commons-codec-1.8.pom (11 kB at 22 kB/s)
+Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/staging/org/easymock/easymock/3.1/easymock-3.1.jar
+Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/staging/org/objenesis/objenesis/1.2/objenesis-1.2.jar
+Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/staging/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar
+Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/staging/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar
+Downloading from oss.sonatype.org: https://oss.sonatype.org/content/groups/staging/commons-codec/commons-codec/1.8/commons-codec-1.8.jar
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/easymock/easymock/3.1/easymock-3.1.jar
+Downloading from spring-milestones: https://repo.spring.io/milestone/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar
+Downloading from spring-milestones: https://repo.spring.io/milestone/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar
+Downloading from spring-milestones: https://repo.spring.io/milestone/commons-codec/commons-codec/1.8/commons-codec-1.8.jar
+Downloading from spring-milestones: https://repo.spring.io/milestone/org/objenesis/objenesis/1.2/objenesis-1.2.jar
+Downloading from ASF Staging: https://repository.apache.org/content/groups/staging/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar
+Downloading from ASF Staging: https://repository.apache.org/content/groups/staging/org/easymock/easymock/3.1/easymock-3.1.jar
+Downloading from ASF Staging: https://repository.apache.org/content/groups/staging/org/objenesis/objenesis/1.2/objenesis-1.2.jar
+Downloading from ASF Staging: https://repository.apache.org/content/groups/staging/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar
+Downloading from ASF Staging: https://repository.apache.org/content/groups/staging/commons-codec/commons-codec/1.8/commons-codec-1.8.jar
+Progress (1): 4.1/264 kBProgress (1): 7.7/264 kBProgress (1): 8.2/264 kB                        Progress (1): 12/264 kBProgress (1): 16/264 kBProgress (1): 16/264 kBProgress (1): 20/264 kBProgress (1): 24/264 kBProgress (1): 25/264 kBProgress (1): 29/264 kBProgress (1): 32/264 kBProgress (1): 33/264 kBProgress (1): 37/264 kBProgress (1): 41/264 kBProgress (1): 41/264 kBProgress (1): 45/264 kBProgress (1): 49/264 kBProgress (1): 49/264 kBProgress (1): 53/264 kBProgress (1): 57/264 kBProgress (1): 57/264 kBProgress (1): 61/264 kBProgress (1): 65/264 kBProgress (1): 66/264 kBProgress (1): 70/264 kBProgress (1): 74/264 kBProgress (1): 74/264 kBProgress (1): 78/264 kBProgress (1): 82/264 kBProgress (1): 82/264 kBProgress (1): 86/264 kBProgress (1): 90/264 kBProgress (1): 90/264 kBProgress (1): 94/264 kBProgress (1): 98/264 kBProgress (1): 98/264 kBProgress (1): 102/264 kBProgress (1): 106/264 kBProgress (1): 106/264 kBProgress (1): 111/264 kBProgress (1): 114/264 kBProgress (1): 115/264 kBProgress (1): 119/264 kBProgress (1): 122/264 kBProgress (1): 123/264 kBProgress (1): 127/264 kBProgress (1): 130/264 kBProgress (1): 131/264 kBProgress (1): 135/264 kBProgress (1): 138/264 kBProgress (1): 139/264 kBProgress (1): 143/264 kBProgress (1): 146/264 kBProgress (1): 147/264 kBProgress (1): 152/264 kBProgress (1): 154/264 kBProgress (1): 156/264 kBProgress (1): 160/264 kBProgress (1): 162/264 kBProgress (1): 164/264 kBProgress (1): 168/264 kBProgress (1): 172/264 kBProgress (1): 172/264 kBProgress (1): 176/264 kBProgress (1): 180/264 kBProgress (1): 180/264 kBProgress (1): 184/264 kBProgress (1): 188/264 kBProgress (1): 188/264 kBProgress (1): 193/264 kBProgress (1): 196/264 kBProgress (1): 197/264 kBProgress (1): 201/264 kBProgress (1): 204/264 kBProgress (1): 205/264 kBProgress (1): 209/264 kBProgress (1): 212/264 kBProgress (1): 213/264 kBProgress (1): 217/264 kBProgress (1): 220/264 kBProgress (1): 221/264 kBProgress (1): 225/264 kBProgress (1): 228/264 kBProgress (1): 229/264 kBProgress (1): 233/264 kBProgress (1): 236/264 kBProgress (1): 238/264 kBProgress (1): 242/264 kBProgress (1): 244/264 kBProgress (1): 246/264 kBProgress (1): 250/264 kBProgress (1): 252/264 kBProgress (1): 254/264 kBProgress (1): 258/264 kBProgress (1): 260/264 kBProgress (1): 262/264 kBProgress (1): 264 kB                        Downloaded from ASF Staging: https://repository.apache.org/content/groups/staging/commons-codec/commons-codec/1.8/commons-codec-1.8.jar (264 kB at 256 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/easymock/easymock/3.1/easymock-3.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar
+Progress (1): 4.1/327 kBProgress (1): 8.2/327 kBProgress (1): 12/327 kB Progress (1): 16/327 kBProgress (1): 20/327 kBProgress (1): 25/327 kBProgress (1): 29/327 kBProgress (1): 33/327 kBProgress (1): 37/327 kBProgress (1): 41/327 kBProgress (1): 45/327 kBProgress (1): 49/327 kBProgress (1): 53/327 kBProgress (1): 57/327 kBProgress (1): 61/327 kBProgress (1): 66/327 kBProgress (1): 70/327 kBProgress (1): 74/327 kBProgress (1): 78/327 kBProgress (1): 82/327 kBProgress (1): 86/327 kBProgress (1): 90/327 kBProgress (1): 94/327 kBProgress (1): 98/327 kBProgress (1): 102/327 kBProgress (1): 106/327 kBProgress (1): 111/327 kBProgress (1): 115/327 kBProgress (2): 115/327 kB | 1.4/112 kBProgress (2): 115/327 kB | 2.7/112 kBProgress (2): 115/327 kB | 4.1/112 kBProgress (2): 115/327 kB | 5.5/112 kBProgress (2): 115/327 kB | 6.9/112 kBProgress (2): 115/327 kB | 8.2/112 kBProgress (2): 115/327 kB | 9.6/112 kBProgress (2): 115/327 kB | 11/112 kB Progress (2): 115/327 kB | 12/112 kBProgress (2): 115/327 kB | 14/112 kBProgress (2): 115/327 kB | 15/112 kBProgress (2): 115/327 kB | 16/112 kBProgress (2): 115/327 kB | 18/112 kBProgress (2): 115/327 kB | 19/112 kBProgress (2): 115/327 kB | 21/112 kBProgress (2): 115/327 kB | 22/112 kBProgress (2): 115/327 kB | 23/112 kBProgress (2): 115/327 kB | 25/112 kBProgress (2): 115/327 kB | 26/112 kBProgress (2): 115/327 kB | 27/112 kBProgress (2): 115/327 kB | 29/112 kBProgress (2): 115/327 kB | 30/112 kBProgress (2): 115/327 kB | 32/112 kBProgress (2): 115/327 kB | 33/112 kBProgress (2): 115/327 kB | 34/112 kBProgress (2): 115/327 kB | 36/112 kBProgress (2): 115/327 kB | 37/112 kBProgress (2): 115/327 kB | 38/112 kBProgress (2): 115/327 kB | 40/112 kBProgress (2): 115/327 kB | 41/112 kBProgress (2): 115/327 kB | 43/112 kBProgress (2): 115/327 kB | 44/112 kBProgress (2): 115/327 kB | 45/112 kBProgress (2): 115/327 kB | 47/112 kBProgress (2): 115/327 kB | 48/112 kBProgress (2): 115/327 kB | 49/112 kBProgress (2): 119/327 kB | 49/112 kBProgress (2): 123/327 kB | 49/112 kBProgress (2): 127/327 kB | 49/112 kBProgress (2): 131/327 kB | 49/112 kBProgress (2): 135/327 kB | 49/112 kBProgress (2): 139/327 kB | 49/112 kBProgress (2): 143/327 kB | 49/112 kBProgress (2): 147/327 kB | 49/112 kBProgress (2): 152/327 kB | 49/112 kBProgress (2): 156/327 kB | 49/112 kBProgress (2): 160/327 kB | 49/112 kBProgress (2): 164/327 kB | 49/112 kBProgress (2): 168/327 kB | 49/112 kBProgress (2): 172/327 kB | 49/112 kBProgress (2): 176/327 kB | 49/112 kBProgress (2): 180/327 kB | 49/112 kBProgress (2): 184/327 kB | 49/112 kBProgress (2): 188/327 kB | 49/112 kBProgress (2): 193/327 kB | 49/112 kBProgress (2): 197/327 kB | 49/112 kBProgress (2): 201/327 kB | 49/112 kBProgress (2): 205/327 kB | 49/112 kBProgress (2): 209/327 kB | 49/112 kBProgress (2): 213/327 kB | 49/112 kBProgress (2): 217/327 kB | 49/112 kBProgress (2): 221/327 kB | 49/112 kBProgress (2): 225/327 kB | 49/112 kBProgress (2): 229/327 kB | 49/112 kBProgress (2): 233/327 kB | 49/112 kBProgress (2): 238/327 kB | 49/112 kBProgress (2): 242/327 kB | 49/112 kBProgress (2): 246/327 kB | 49/112 kBProgress (3): 246/327 kB | 49/112 kB | 1.4/36 kBProgress (3): 246/327 kB | 49/112 kB | 2.7/36 kBProgress (3): 246/327 kB | 49/112 kB | 4.1/36 kBProgress (3): 246/327 kB | 49/112 kB | 5.5/36 kBProgress (3): 246/327 kB | 49/112 kB | 6.9/36 kBProgress (3): 246/327 kB | 49/112 kB | 8.2/36 kBProgress (3): 246/327 kB | 49/112 kB | 9.6/36 kBProgress (3): 246/327 kB | 49/112 kB | 11/36 kB Progress (3): 246/327 kB | 49/112 kB | 12/36 kBProgress (3): 246/327 kB | 49/112 kB | 14/36 kBProgress (3): 246/327 kB | 49/112 kB | 15/36 kBProgress (3): 246/327 kB | 49/112 kB | 16/36 kBProgress (3): 246/327 kB | 49/112 kB | 18/36 kBProgress (3): 246/327 kB | 49/112 kB | 19/36 kBProgress (3): 246/327 kB | 49/112 kB | 21/36 kBProgress (3): 246/327 kB | 49/112 kB | 22/36 kBProgress (3): 246/327 kB | 49/112 kB | 23/36 kBProgress (3): 246/327 kB | 49/112 kB | 25/36 kBProgress (3): 246/327 kB | 49/112 kB | 26/36 kBProgress (3): 246/327 kB | 49/112 kB | 27/36 kBProgress (3): 246/327 kB | 49/112 kB | 29/36 kBProgress (3): 246/327 kB | 49/112 kB | 30/36 kBProgress (3): 246/327 kB | 49/112 kB | 32/36 kBProgress (3): 246/327 kB | 49/112 kB | 33/36 kBProgress (4): 246/327 kB | 49/112 kB | 33/36 kB | 1.4/458 kBProgress (4): 246/327 kB | 51/112 kB | 33/36 kB | 1.4/458 kBProgress (4): 246/327 kB | 52/112 kB | 33/36 kB | 1.4/458 kBProgress (4): 246/327 kB | 52/112 kB | 33/36 kB | 2.7/458 kBProgress (4): 246/327 kB | 52/112 kB | 34/36 kB | 2.7/458 kBProgress (4): 246/327 kB | 52/112 kB | 34/36 kB | 4.1/458 kBProgress (4): 250/327 kB | 52/112 kB | 34/36 kB | 4.1/458 kBProgress (4): 250/327 kB | 52/112 kB | 34/36 kB | 5.5/458 kBProgress (4): 250/327 kB | 52/112 kB | 36/36 kB | 5.5/458 kBProgress (4): 250/327 kB | 52/112 kB | 36/36 kB | 6.9/458 kBProgress (4): 250/327 kB | 53/112 kB | 36/36 kB | 6.9/458 kBProgress (4): 250/327 kB | 53/112 kB | 36/36 kB | 8.2/458 kBProgress (4): 250/327 kB | 53/112 kB | 36 kB | 8.2/458 kB   Progress (4): 254/327 kB | 53/112 kB | 36 kB | 8.2/458 kBProgress (4): 254/327 kB | 53/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 55/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 56/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 58/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 59/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 60/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 62/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 63/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 64/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 66/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 70/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 74/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 78/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 82/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 86/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 90/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 94/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 99/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 103/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 107/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 111/112 kB | 36 kB | 9.6/458 kBProgress (4): 254/327 kB | 112 kB | 36 kB | 9.6/458 kB    Progress (4): 258/327 kB | 112 kB | 36 kB | 9.6/458 kBProgress (4): 258/327 kB | 112 kB | 36 kB | 11/458 kB Progress (4): 262/327 kB | 112 kB | 36 kB | 11/458 kBProgress (4): 262/327 kB | 112 kB | 36 kB | 12/458 kBProgress (4): 262/327 kB | 112 kB | 36 kB | 14/458 kBProgress (4): 266/327 kB | 112 kB | 36 kB | 14/458 kBProgress (4): 266/327 kB | 112 kB | 36 kB | 15/458 kBProgress (4): 270/327 kB | 112 kB | 36 kB | 15/458 kBProgress (4): 270/327 kB | 112 kB | 36 kB | 16/458 kBProgress (4): 274/327 kB | 112 kB | 36 kB | 16/458 kBProgress (4): 274/327 kB | 112 kB | 36 kB | 18/458 kBProgress (4): 279/327 kB | 112 kB | 36 kB | 18/458 kBProgress (4): 279/327 kB | 112 kB | 36 kB | 19/458 kBProgress (4): 279/327 kB | 112 kB | 36 kB | 21/458 kBProgress (4): 283/327 kB | 112 kB | 36 kB | 21/458 kBProgress (4): 283/327 kB | 112 kB | 36 kB | 22/458 kBProgress (4): 287/327 kB | 112 kB | 36 kB | 22/458 kBProgress (4): 287/327 kB | 112 kB | 36 kB | 23/458 kBProgress (4): 291/327 kB | 112 kB | 36 kB | 23/458 kBProgress (4): 291/327 kB | 112 kB | 36 kB | 25/458 kBProgress (4): 295/327 kB | 112 kB | 36 kB | 25/458 kBProgress (4): 295/327 kB | 112 kB | 36 kB | 26/458 kBProgress (4): 295/327 kB | 112 kB | 36 kB | 27/458 kBProgress (4): 299/327 kB | 112 kB | 36 kB | 27/458 kBProgress (4): 299/327 kB | 112 kB | 36 kB | 29/458 kBProgress (4): 303/327 kB | 112 kB | 36 kB | 29/458 kBProgress (4): 303/327 kB | 112 kB | 36 kB | 30/458 kBProgress (4): 307/327 kB | 112 kB | 36 kB | 30/458 kBProgress (4): 307/327 kB | 112 kB | 36 kB | 32/458 kBProgress (4): 311/327 kB | 112 kB | 36 kB | 32/458 kBProgress (4): 311/327 kB | 112 kB | 36 kB | 33/458 kBProgress (4): 311/327 kB | 112 kB | 36 kB | 34/458 kBProgress (4): 311/327 kB | 112 kB | 36 kB | 36/458 kBProgress (4): 315/327 kB | 112 kB | 36 kB | 36/458 kBProgress (4): 315/327 kB | 112 kB | 36 kB | 37/458 kBProgress (4): 319/327 kB | 112 kB | 36 kB | 37/458 kBProgress (4): 319/327 kB | 112 kB | 36 kB | 38/458 kBProgress (4): 324/327 kB | 112 kB | 36 kB | 38/458 kBProgress (4): 324/327 kB | 112 kB | 36 kB | 40/458 kBProgress (4): 327 kB | 112 kB | 36 kB | 40/458 kB    Progress (4): 327 kB | 112 kB | 36 kB | 41/458 kB                                                 Downloaded from central: https://repo.maven.apache.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar (36 kB at 767 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/easymock/easymock/3.1/easymock-3.1.jar (112 kB at 2.2 MB/s)
+Progress (2): 327 kB | 43/458 kBProgress (2): 327 kB | 44/458 kBProgress (2): 327 kB | 45/458 kBProgress (2): 327 kB | 47/458 kBProgress (2): 327 kB | 48/458 kBProgress (2): 327 kB | 49/458 kBProgress (2): 327 kB | 51/458 kBProgress (2): 327 kB | 52/458 kBProgress (2): 327 kB | 53/458 kBProgress (2): 327 kB | 55/458 kBProgress (2): 327 kB | 56/458 kBProgress (2): 327 kB | 58/458 kBProgress (2): 327 kB | 59/458 kBProgress (2): 327 kB | 60/458 kBProgress (2): 327 kB | 62/458 kBProgress (2): 327 kB | 63/458 kBProgress (2): 327 kB | 64/458 kBProgress (2): 327 kB | 66/458 kBProgress (2): 327 kB | 70/458 kBProgress (2): 327 kB | 74/458 kBProgress (2): 327 kB | 78/458 kBProgress (2): 327 kB | 82/458 kBProgress (2): 327 kB | 86/458 kBProgress (2): 327 kB | 90/458 kBProgress (2): 327 kB | 94/458 kBProgress (2): 327 kB | 99/458 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar (327 kB at 6.5 MB/s)
+Progress (1): 103/458 kBProgress (1): 107/458 kBProgress (1): 111/458 kBProgress (1): 115/458 kBProgress (1): 119/458 kBProgress (1): 123/458 kBProgress (1): 127/458 kBProgress (1): 131/458 kBProgress (1): 135/458 kBProgress (1): 140/458 kBProgress (1): 144/458 kBProgress (1): 148/458 kBProgress (1): 152/458 kBProgress (1): 156/458 kBProgress (1): 160/458 kBProgress (1): 164/458 kBProgress (1): 168/458 kBProgress (1): 172/458 kBProgress (1): 176/458 kBProgress (1): 180/458 kBProgress (1): 185/458 kBProgress (1): 189/458 kBProgress (1): 193/458 kBProgress (1): 197/458 kBProgress (1): 201/458 kBProgress (1): 205/458 kBProgress (1): 209/458 kBProgress (1): 213/458 kBProgress (1): 217/458 kBProgress (1): 221/458 kBProgress (1): 226/458 kBProgress (1): 230/458 kBProgress (1): 234/458 kBProgress (1): 238/458 kBProgress (1): 242/458 kBProgress (1): 246/458 kBProgress (1): 250/458 kBProgress (1): 254/458 kBProgress (1): 258/458 kBProgress (1): 262/458 kBProgress (1): 267/458 kBProgress (1): 271/458 kBProgress (1): 275/458 kBProgress (1): 279/458 kBProgress (1): 283/458 kBProgress (1): 287/458 kBProgress (1): 291/458 kBProgress (1): 295/458 kBProgress (1): 299/458 kBProgress (1): 303/458 kBProgress (1): 307/458 kBProgress (1): 312/458 kBProgress (1): 316/458 kBProgress (1): 320/458 kBProgress (1): 324/458 kBProgress (1): 328/458 kBProgress (1): 328/458 kBProgress (1): 332/458 kBProgress (1): 337/458 kBProgress (1): 341/458 kBProgress (1): 345/458 kBProgress (1): 349/458 kBProgress (1): 353/458 kBProgress (1): 357/458 kBProgress (1): 361/458 kBProgress (1): 365/458 kBProgress (1): 369/458 kBProgress (1): 373/458 kBProgress (1): 378/458 kBProgress (1): 382/458 kBProgress (1): 386/458 kBProgress (1): 390/458 kBProgress (1): 394/458 kBProgress (1): 398/458 kBProgress (1): 402/458 kBProgress (1): 406/458 kBProgress (1): 410/458 kBProgress (1): 414/458 kBProgress (1): 418/458 kBProgress (1): 423/458 kBProgress (1): 427/458 kBProgress (1): 431/458 kBProgress (1): 435/458 kBProgress (1): 439/458 kBProgress (1): 443/458 kBProgress (1): 447/458 kBProgress (1): 451/458 kBProgress (1): 455/458 kBProgress (1): 458 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/com/sun/jersey/jersey-core/1.8/jersey-core-1.8.jar (458 kB at 6.5 MB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:regex-property[m [1m(parse-package-version)[m @ [36mambari-views[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:regex-property[m [1m(parse-package-release)[m @ [36mambari-views[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:parse-version[m [1m(parse-version)[m @ [36mambari-views[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:regex-property[m [1m(regex-property)[m @ [36mambari-views[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mambari-views[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-versions)[m @ [36mambari-views[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-remote-resources-plugin:1.5:process[m [1m(process-resource-bundles)[m @ [36mambari-views[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:resources[m [1m(default-resources)[m @ [36mambari-views[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mflatten-maven-plugin:1.0.1:flatten[m [1m(flatten)[m @ [36mambari-views[0;1m ---[m
+[[1;34mINFO[m] Generating flattened POM of project org.apache.ambari:ambari-views:jar:3.0.0.0-SNAPSHOT...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.0:compile[m [1m(default-compile)[m @ [36mambari-views[0;1m ---[m
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/shared/maven-shared-incremental/1.0/maven-shared-incremental-1.0.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/shared/maven-shared-incremental/1.0/maven-shared-incremental-1.0.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/shared/maven-shared-incremental/1.0/maven-shared-incremental-1.0.pom
+Progress (1): 4.1/4.7 kBProgress (1): 4.7 kB                        Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/shared/maven-shared-incremental/1.0/maven-shared-incremental-1.0.pom (4.7 kB at 23 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/codehaus/plexus/plexus-compiler-manager/2.0/plexus-compiler-manager-2.0.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/codehaus/plexus/plexus-compiler-manager/2.0/plexus-compiler-manager-2.0.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/plexus/plexus-compiler-manager/2.0/plexus-compiler-manager-2.0.pom
+Progress (1): 690 B                   Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/plexus/plexus-compiler-manager/2.0/plexus-compiler-manager-2.0.pom (690 B at 3.4 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/codehaus/plexus/plexus-compiler-javac/2.0/plexus-compiler-javac-2.0.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/codehaus/plexus/plexus-compiler-javac/2.0/plexus-compiler-javac-2.0.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/plexus/plexus-compiler-javac/2.0/plexus-compiler-javac-2.0.pom
+Progress (1): 769 B                   Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/plexus/plexus-compiler-javac/2.0/plexus-compiler-javac-2.0.pom (769 B at 4.5 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/codehaus/plexus/plexus-compilers/2.0/plexus-compilers-2.0.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/codehaus/plexus/plexus-compilers/2.0/plexus-compilers-2.0.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/plexus/plexus-compilers/2.0/plexus-compilers-2.0.pom
+Progress (1): 1.2 kB                    Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/plexus/plexus-compilers/2.0/plexus-compilers-2.0.pom (1.2 kB at 7.7 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/apache/maven/shared/maven-shared-incremental/1.0/maven-shared-incremental-1.0.jar
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/codehaus/plexus/plexus-compiler-manager/2.0/plexus-compiler-manager-2.0.jar
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/org/codehaus/plexus/plexus-compiler-javac/2.0/plexus-compiler-javac-2.0.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/apache/maven/shared/maven-shared-incremental/1.0/maven-shared-incremental-1.0.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/codehaus/plexus/plexus-compiler-javac/2.0/plexus-compiler-javac-2.0.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/org/codehaus/plexus/plexus-compiler-manager/2.0/plexus-compiler-manager-2.0.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/shared/maven-shared-incremental/1.0/maven-shared-incremental-1.0.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/plexus/plexus-compiler-manager/2.0/plexus-compiler-manager-2.0.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/plexus/plexus-compiler-javac/2.0/plexus-compiler-javac-2.0.jar
+Progress (1): 4.1/4.6 kBProgress (1): 4.6 kB    Progress (2): 4.6 kB | 4.1/12 kBProgress (2): 4.6 kB | 6.9/12 kBProgress (2): 4.6 kB | 11/12 kB Progress (2): 4.6 kB | 12 kB   Progress (3): 4.6 kB | 12 kB | 4.1/19 kBProgress (3): 4.6 kB | 12 kB | 6.9/19 kBProgress (3): 4.6 kB | 12 kB | 11/19 kB Progress (3): 4.6 kB | 12 kB | 15/19 kBProgress (3): 4.6 kB | 12 kB | 19 kB                                       Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/plexus/plexus-compiler-manager/2.0/plexus-compiler-manager-2.0.jar (4.6 kB at 28 kB/s)
+Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/apache/maven/shared/maven-shared-incremental/1.0/maven-shared-incremental-1.0.jar (12 kB at 74 kB/s)
+Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/org/codehaus/plexus/plexus-compiler-javac/2.0/plexus-compiler-javac-2.0.jar (19 kB at 110 kB/s)
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 34 source files to /home/ch61/ambari/ambari-views/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.1.0:testResources[m [1m(default-testResources)[m @ [36mambari-views[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ch61/ambari/ambari-views/src/test/resources
+[[1;34mINFO[m] Copying 3 resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.0:testCompile[m [1m(default-testCompile)[m @ [36mambari-views[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 4 source files to /home/ch61/ambari/ambari-views/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m<<< [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[0;1m < [0;1mtest-compile[m @ [36mambari-views[0;1m <<<[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[m @ [36mambari-views[0;1m ---[m
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No timeout specified. Using randomize.rounds: 10
+[[1;34mINFO[m] ROUNDS_CALCULATED: Giving org.apache.ambari:ambari-views:3.0.0.0-SNAPSHOT 10 rounds to run for random-class-method
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Getting original order by parsing logs. ignoreExisting set to: false
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Getting original results (5 tests).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] No passing order for tests (3 runs). Continuing anyway with last run.
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Created dependent test detector (class edu.illinois.cs.dt.tools.detection.detectors.RandomDetector).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 1 of 10 (0.0 seconds elapsed (0.8 total), 0.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 2 of 10 (0.8 seconds elapsed (1.6 total), 3.3 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 3 of 10 (1.6 seconds elapsed (2.4 total), 3.8 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 4 of 10 (2.4 seconds elapsed (3.2 total), 3.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 5 of 10 (3.2 seconds elapsed (4.0 total), 3.2 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 6 of 10 (4.0 seconds elapsed (4.8 total), 2.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 7 of 10 (4.8 seconds elapsed (5.6 total), 2.0 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 8 of 10 (5.6 seconds elapsed (6.4 total), 1.4 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 9 of 10 (6.4 seconds elapsed (7.2 total), 0.7 seconds remaining).
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[[1;34mINFO[m] Accessing cachePath: 
+[INFO] Found 0 tests in round 10 of 10 (7.2 seconds elapsed (8.0 total), 0.0 seconds remaining).
+
+[INFO] Found 0 tests, writing list to /home/ch61/ambari/ambari-views/.dtfixingtools/detection-results/list.txt and dt lists to /home/ch61/ambari/ambari-views/.dtfixingtools/detection-results/flaky-lists.json
+TRY_COPY_ALL_FAILING_TEST_OUTPUT
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m-------------------< [0;36morg.apache.ambari:ambari-admin[0;1m >-------------------[m
+[[1;34mINFO[m] [1mBuilding Ambari Admin View 3.0.0.0-SNAPSHOT                       [5/11][m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/com/github/eirslett/frontend-maven-plugin/1.3/frontend-maven-plugin-1.3.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/com/github/eirslett/frontend-maven-plugin/1.3/frontend-maven-plugin-1.3.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-maven-plugin/1.3/frontend-maven-plugin-1.3.pom
+Progress (1): 4.1/5.5 kBProgress (1): 5.5 kB                        Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-maven-plugin/1.3/frontend-maven-plugin-1.3.pom (5.5 kB at 33 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/com/github/eirslett/frontend-plugins/1.3/frontend-plugins-1.3.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/com/github/eirslett/frontend-plugins/1.3/frontend-plugins-1.3.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-plugins/1.3/frontend-plugins-1.3.pom
+Progress (1): 2.3 kB                    Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-plugins/1.3/frontend-plugins-1.3.pom (2.3 kB at 11 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/com/github/eirslett/frontend-maven-plugin/1.3/frontend-maven-plugin-1.3.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/com/github/eirslett/frontend-maven-plugin/1.3/frontend-maven-plugin-1.3.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-maven-plugin/1.3/frontend-maven-plugin-1.3.jar
+Progress (1): 4.1/35 kBProgress (1): 6.9/35 kBProgress (1): 11/35 kB Progress (1): 15/35 kBProgress (1): 19/35 kBProgress (1): 23/35 kBProgress (1): 27/35 kBProgress (1): 31/35 kBProgress (1): 35 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-maven-plugin/1.3/frontend-maven-plugin-1.3.jar (35 kB at 226 kB/s)
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m>>> [0;32mtestrunner-maven-plugin:1.2:testplugin[m [1m(default-cli)[0;1m > [0;1mtest-compile[m @ [36mambari-admin[0;1m >>>[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:regex-property[m [1m(parse-package-version)[m @ [36mambari-admin[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:regex-property[m [1m(parse-package-release)[m @ [36mambari-admin[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:parse-version[m [1m(parse-version)[m @ [36mambari-admin[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mbuild-helper-maven-plugin:1.8:regex-property[m [1m(regex-property)[m @ [36mambari-admin[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-maven-version)[m @ [36mambari-admin[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-enforcer-plugin:3.0.0-M2:enforce[m [1m(enforce-versions)[m @ [36mambari-admin[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mfrontend-maven-plugin:1.3:install-node-and-npm[m [1m(install node and npm)[m @ [36mambari-admin[0;1m ---[m
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/com/github/eirslett/frontend-plugin-core/1.3/frontend-plugin-core-1.3.pom
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/com/github/eirslett/frontend-plugin-core/1.3/frontend-plugin-core-1.3.pom
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-plugin-core/1.3/frontend-plugin-core-1.3.pom
+Progress (1): 1.8 kB                    Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-plugin-core/1.3/frontend-plugin-core-1.3.pom (1.8 kB at 11 kB/s)
+Downloading from maven2-repository.dev.java.net: https://download.java.net/maven/2/com/github/eirslett/frontend-plugin-core/1.3/frontend-plugin-core-1.3.jar
+Downloading from maven2-glassfish-repository.dev.java.net: https://download.java.net/maven/glassfish/com/github/eirslett/frontend-plugin-core/1.3/frontend-plugin-core-1.3.jar
+Downloading from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-plugin-core/1.3/frontend-plugin-core-1.3.jar
+Progress (1): 4.1/70 kBProgress (1): 6.9/70 kBProgress (1): 11/70 kB Progress (1): 15/70 kBProgress (1): 19/70 kBProgress (1): 23/70 kBProgress (1): 27/70 kBProgress (1): 31/70 kBProgress (1): 32/70 kBProgress (1): 36/70 kBProgress (1): 40/70 kBProgress (1): 44/70 kBProgress (1): 48/70 kBProgress (1): 53/70 kBProgress (1): 57/70 kBProgress (1): 61/70 kBProgress (1): 61/70 kBProgress (1): 65/70 kBProgress (1): 69/70 kBProgress (1): 70 kB                      Downloaded from maven2-repository.atlassian: https://maven.atlassian.com/repository/public/com/github/eirslett/frontend-plugin-core/1.3/frontend-plugin-core-1.3.jar (70 kB at 379 kB/s)
+[[1;34mINFO[m] Installing node version v4.5.0
+[[1;34mINFO[m] Unpacking /home/ch61/.m2/repository/com/github/eirslett/node/4.5.0/node-4.5.0-linux-x64.tar.gz into /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node/tmp
+[[1;34mINFO[m] Copying node binary from /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node/tmp/node-v4.5.0-linux-x64/bin/node to /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node/node
+[[1;34mINFO[m] Installed node locally.
+[[1;34mINFO[m] Installing npm version 2.15.0
+[[1;34mINFO[m] Downloading http://registry.npmjs.org/npm/-/npm-2.15.0.tgz to /home/ch61/.m2/repository/com/github/eirslett/npm/2.15.0/npm-2.15.0.tar.gz
+[[1;34mINFO[m] No proxies configured
+[[1;34mINFO[m] No proxy was configured, downloading directly
+[[1;34mINFO[m] Unpacking /home/ch61/.m2/repository/com/github/eirslett/npm/2.15.0/npm-2.15.0.tar.gz into /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node/node_modules
+[[1;34mINFO[m] Installed npm locally.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mfrontend-maven-plugin:1.3:npm[m [1m(npm install)[m @ [36mambari-admin[0;1m ---[m
+[[1;34mINFO[m] npm not inheriting proxy config from Maven
+[[1;34mINFO[m] Running 'npm install --unsafe-perm' in /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web
+[[1;33mWARNING[m] npm WARN package.json adminconsole@0.0.0 No description
+[[1;33mWARNING[m] npm WARN package.json adminconsole@0.0.0 No repository field.
+[[1;33mWARNING[m] npm WARN package.json adminconsole@0.0.0 No README data
+[[1;33mWARNING[m] npm WARN package.json adminconsole@0.0.0 No license field.
+[[1;33mWARNING[m] npm WARN deprecated phantomjs@2.1.7: Package renamed to phantomjs-prebuilt. Please update 'phantomjs' package references to 'phantomjs-prebuilt'
+[[1;33mWARNING[m] npm WARN deprecated gulp-clean@0.2.4: use gulp-rimraf instead
+[[1;33mWARNING[m] npm WARN deprecated bower@1.8.8: We don't recommend using Bower for new projects. Please consider Yarn and Webpack or Parcel. You can read how to migrate legacy project here: https://bower.io/blog/2017/how-to-migrate-away-from-bower/
+[[1;33mWARNING[m] npm WARN deprecated gulp-util@2.2.20: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+[[1;33mWARNING[m] npm WARN deprecated gulp-util@3.0.8: gulp-util is deprecated - replace it, following the guidelines at https://medium.com/gulpjs/gulp-util-ca3b1f9f9ac5
+[[1;33mWARNING[m] npm WARN deprecated phantomjs-prebuilt@2.1.16: this package is now deprecated
+[[1;33mWARNING[m] npm WARN deprecated minimatch@0.2.14: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+[[1;33mWARNING[m] npm WARN deprecated request@2.67.0: request has been deprecated, see https://github.com/request/request/issues/3142
+[[1;33mWARNING[m] npm WARN deprecated lodash-node@2.4.1: This package is discontinued. Use lodash@^4.0.0.
+[[1;33mWARNING[m] npm WARN deprecated ecstatic@0.4.13: This package is unmaintained and deprecated. See the GH Issue 259.
+[[1;33mWARNING[m] npm WARN deprecated mkdirp@0.5.0: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+[[1;33mWARNING[m] npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[[1;33mWARNING[m] npm WARN deprecated mkdirp@0.0.7: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+[[1;33mWARNING[m] npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
+[[1;33mWARNING[m] npm WARN deprecated tough-cookie@2.2.2: ReDoS vulnerability parsing Set-Cookie https://nodesecurity.io/advisories/130
+[[1;33mWARNING[m] npm WARN deprecated hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[[1;33mWARNING[m] npm WARN deprecated har-validator@2.0.6: this library is no longer supported
+[[1;33mWARNING[m] npm WARN engine request@2.88.2: wanted: {"node":">= 6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN deprecated minimatch@2.0.10: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+[[1;33mWARNING[m] npm WARN deprecated graceful-fs@1.2.3: please upgrade to graceful-fs 4 for compatibility with current and future versions of Node.js
+[[1;33mWARNING[m] npm WARN deprecated natives@1.1.6: This module relies on Node.js's internals and will break at some point. Do not use it, and update to graceful-fs@4.x.
+[[1;33mWARNING[m] npm WARN deprecated minimatch@0.3.0: Please update to minimatch 3.0.2 or higher to avoid a RegExp DoS issue
+[[1;33mWARNING[m] npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+[[1;33mWARNING[m] npm WARN deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+[[1;33mWARNING[m] npm WARN engine har-validator@5.1.5: wanted: {"node":">=6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN deprecated request@2.36.0: request has been deprecated, see https://github.com/request/request/issues/3142
+[[1;33mWARNING[m] npm WARN deprecated sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[[1;33mWARNING[m] npm WARN deprecated cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[[1;33mWARNING[m] npm WARN deprecated boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[[1;33mWARNING[m] npm WARN deprecated hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[[1;33mWARNING[m] npm WARN deprecated chokidar@2.1.8: Chokidar 2 will break on node v14+. Upgrade to chokidar 3 with 15x less dependencies.
+[[1;33mWARNING[m] npm WARN deprecated core-js@2.6.12: core-js@<3.3 is no longer maintained and not recommended for usage due to the number of issues. Because of the V8 engine whims, feature detection in old core-js versions could cause a slowdown up to 100x even if nothing is polyfilled. Please, upgrade your dependencies to the actual version of core-js.
+[[1;33mWARNING[m] npm WARN engine http-proxy@1.18.1: wanted: {"node":">=8.0.0"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine punycode@2.1.1: wanted: {"node":">=6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN deprecated fsevents@1.2.13: fsevents 1 will break on node v14+ and could be using insecure binaries. Upgrade to fsevents 2.
+[[1;33mWARNING[m] npm WARN deprecated resolve-url@0.2.1: https://github.com/lydell/resolve-url#deprecated
+[[1;33mWARNING[m] npm WARN deprecated urix@0.1.0: Please see https://github.com/lydell/urix#deprecated
+[[1;33mWARNING[m] npm WARN optional dep failed, continuing fsevents@1.2.13
+[[1;33mWARNING[m] npm WARN deprecated hawk@1.0.0: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[[1;33mWARNING[m] npm WARN engine tough-cookie@4.0.0: wanted: {"node":">=6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN deprecated uws@9.14.0: New code is available at github.com/uNetworking/uWebSockets.js
+[[1;33mWARNING[m] npm WARN deprecated circular-json@0.5.9: CircularJSON is in maintenance only, flatted is its successor.
+[[1;33mWARNING[m] npm WARN deprecated axios@0.15.3: Critical security vulnerability fixed in v0.21.1. For more information, see https://github.com/axios/axios/pull/3410
+[[1;33mWARNING[m] npm WARN deprecated nodemailer@2.7.2: All versions below 4.0.1 of Nodemailer are deprecated. See https://nodemailer.com/status/
+[[1;33mWARNING[m] npm WARN engine mailgun-js@0.18.1: wanted: {"node":">=6.0.0"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine punycode@2.1.1: wanted: {"node":">=6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN deprecated cryptiles@0.2.2: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[[1;33mWARNING[m] npm WARN deprecated hoek@0.9.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[[1;33mWARNING[m] npm WARN deprecated boom@0.4.2: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[[1;33mWARNING[m] npm WARN deprecated sntp@0.2.4: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[[1;33mWARNING[m] npm WARN engine request@2.88.2: wanted: {"node":">= 6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN deprecated socks@1.1.9: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+[[1;33mWARNING[m] npm WARN deprecated mailcomposer@4.0.1: This project is unmaintained
+[[1;33mWARNING[m] npm WARN deprecated request@2.75.0: request has been deprecated, see https://github.com/request/request/issues/3142
+[[1;33mWARNING[m] npm WARN engine proxy-agent@3.0.3: wanted: {"node":">=6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN deprecated buildmail@4.0.1: This project is unmaintained
+[[1;33mWARNING[m] npm WARN engine har-validator@5.1.5: wanted: {"node":">=6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine socks-proxy-agent@4.0.2: wanted: {"node":">= 6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine punycode@2.1.1: wanted: {"node":">=6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine socks@2.3.3: wanted: {"node":">= 6.0.0","npm":">= 3.0.0"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine debug@4.3.2: wanted: {"node":">=6.0"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine httpreq@0.5.2: wanted: {"node":">= 6.15.1"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine httpreq@0.5.2: wanted: {"node":">= 6.15.1"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine httpreq@0.5.2: wanted: {"node":">= 6.15.1"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine request@2.88.2: wanted: {"node":">= 6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine smart-buffer@4.2.0: wanted: {"node":">= 6.0.0","npm":">= 3.0.0"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine har-validator@5.1.5: wanted: {"node":">=6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine punycode@2.1.1: wanted: {"node":">=6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine punycode@2.1.1: wanted: {"node":">=6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;34mINFO[m] 
+[[1;34mINFO[m] > phantomjs-prebuilt@2.1.16 install /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs-prebuilt
+[[1;34mINFO[m] > node install.js
+[[1;34mINFO[m] 
+[[1;34mINFO[m] PhantomJS not found on PATH
+[[1;34mINFO[m] Downloading https://github.com/Medium/phantomjs/releases/download/v2.1.1/phantomjs-2.1.1-linux-x86_64.tar.bz2
+[[1;34mINFO[m] Saving to /tmp/phantomjs/phantomjs-2.1.1-linux-x86_64.tar.bz2
+[[1;34mINFO[m] Receiving...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Received 22866K total.
+[[1;34mINFO[m] Extracting tar contents (via spawned process)
+[[1;34mINFO[m] Removing /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs-prebuilt/lib/phantom
+[[1;34mINFO[m] Copying extracted folder /tmp/phantomjs/phantomjs-2.1.1-linux-x86_64.tar.bz2-extract-1633911112244/phantomjs-2.1.1-linux-x86_64 -> /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node_modules/karma-phantomjs-launcher/node_modules/phantomjs-prebuilt/lib/phantom
+[[1;34mINFO[m] Install exited unexpectedly
+[[1;33mWARNING[m] npm WARN engine punycode@2.1.1: wanted: {"node":">=6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;33mWARNING[m] npm WARN engine punycode@2.1.1: wanted: {"node":">=6"} (current: {"node":"4.5.0","npm":"2.15.0"})
+[[1;34mINFO[m] 
+[[1;34mINFO[m] > uws@9.14.0 install /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node_modules/karma/node_modules/socket.io/node_modules/engine.io/node_modules/uws
+[[1;34mINFO[m] > node-gyp rebuild > build_log.txt 2>&1 || exit 0
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] > phantomjs@2.1.7 install /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node_modules/phantomjs
+[[1;34mINFO[m] > node install.js
+[[1;34mINFO[m] 
+[[1;34mINFO[m] PhantomJS not found on PATH
+[[1;34mINFO[m] Download already available at /tmp/phantomjs/phantomjs-2.1.1-linux-x86_64.tar.bz2
+[[1;34mINFO[m] Verified checksum of previously downloaded file
+[[1;34mINFO[m] Extracting tar contents (via spawned process)
+[[1;34mINFO[m] Removing /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node_modules/phantomjs/lib/phantom
+[[1;34mINFO[m] Copying extracted folder /tmp/phantomjs/phantomjs-2.1.1-linux-x86_64.tar.bz2-extract-1633911125610/phantomjs-2.1.1-linux-x86_64 -> /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node_modules/phantomjs/lib/phantom
+[[1;34mINFO[m] Install exited unexpectedly
+[[1;34mINFO[m] 
+[[1;34mINFO[m] > core-js@2.6.12 postinstall /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node_modules/karma/node_modules/core-js
+[[1;34mINFO[m] > node -e "try{require('./postinstall')}catch(e){}"
+[[1;34mINFO[m] 
+[[1;31mERROR[m] npm ERR! Linux 4.15.0-156-generic
+[[1;31mERROR[m] npm ERR! argv "/home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node/node" "/home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/node/node_modules/npm/bin/npm-cli.js" "install" "--unsafe-perm"
+[[1;31mERROR[m] npm ERR! node v4.5.0
+[[1;31mERROR[m] npm ERR! npm  v2.15.0
+[[1;31mERROR[m] npm ERR! code ELIFECYCLE
+[[1;31mERROR[m] 
+[[1;31mERROR[m] npm ERR! phantomjs-prebuilt@2.1.16 install: `node install.js`
+[[1;31mERROR[m] npm ERR! Exit status 1
+[[1;31mERROR[m] npm ERR! 
+[[1;31mERROR[m] npm ERR! Failed at the phantomjs-prebuilt@2.1.16 install script 'node install.js'.
+[[1;31mERROR[m] npm ERR! This is most likely a problem with the phantomjs-prebuilt package,
+[[1;31mERROR[m] npm ERR! not with npm itself.
+[[1;31mERROR[m] npm ERR! Tell the author that this fails on your system:
+[[1;31mERROR[m] npm ERR!     node install.js
+[[1;31mERROR[m] npm ERR! You can get information on how to open an issue for this project with:
+[[1;31mERROR[m] npm ERR!     npm bugs phantomjs-prebuilt
+[[1;31mERROR[m] npm ERR! Or if that isn't available, you can get their info via:
+[[1;31mERROR[m] npm ERR! 
+[[1;31mERROR[m] npm ERR!     npm owner ls phantomjs-prebuilt
+[[1;31mERROR[m] npm ERR! There is likely additional logging output above.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] npm ERR! Please include the following file with any support request:
+[[1;31mERROR[m] npm ERR!     /home/ch61/ambari/ambari-admin/src/main/resources/ui/admin-web/npm-debug.log
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1mReactor Summary:[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Ambari Main 3.0.0.0-SNAPSHOT ....................... [1;32mSUCCESS[m [  1.913 s]
+[[1;34mINFO[m] Apache Ambari Project POM 3.0.0.0-SNAPSHOT ......... [1;32mSUCCESS[m [ 23.440 s]
+[[1;34mINFO[m] Ambari Web 3.0.0.0-SNAPSHOT ........................ [1;32mSUCCESS[m [01:31 min]
+[[1;34mINFO[m] Ambari Views 3.0.0.0-SNAPSHOT ...................... [1;32mSUCCESS[m [ 30.197 s]
+[[1;34mINFO[m] Ambari Admin View 3.0.0.0-SNAPSHOT ................. [1;31mFAILURE[m [01:18 min]
+[[1;34mINFO[m] ambari-utility 3.0.0.0-SNAPSHOT .................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Ambari Server SPI 3.0.0.0-SNAPSHOT ................. [1;33mSKIPPED[m
+[[1;34mINFO[m] Ambari Service Advisor 1.0.0.0-SNAPSHOT ............ [1;33mSKIPPED[m
+[[1;34mINFO[m] Ambari Server 3.0.0.0-SNAPSHOT ..................... [1;33mSKIPPED[m
+[[1;34mINFO[m] Ambari Functional Tests 3.0.0.0-SNAPSHOT ........... [1;33mSKIPPED[m
+[[1;34mINFO[m] Ambari Agent 3.0.0.0-SNAPSHOT ...................... [1;33mSKIPPED[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  03:46 min
+[[1;34mINFO[m] Finished at: 2021-10-10T19:12:09-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32mcom.github.eirslett:frontend-maven-plugin:1.3:npm[m [1m(npm install)[m on project [36mambari-admin[m: [1;31mFailed to run task[m: 'npm install --unsafe-perm' failed. (error code 1) -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[[1;31mERROR[m] 
+[[1;31mERROR[m] After correcting the problems, you can resume the build with the command
+[[1;31mERROR[m]   [1mmvn <goals> -rf :ambari-admin[m
